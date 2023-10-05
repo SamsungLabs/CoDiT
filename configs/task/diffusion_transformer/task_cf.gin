@@ -1,0 +1,13 @@
+Task.input_id = 'codit_sg'
+Task.env_id = 'srrc_dual_frankas'
+Task.model_id = 'diffusion_transformer'
+
+Optimizer.name = 'adamw'
+Optimizer.lr = 1e-4
+Optimizer.weight_decay = 1e-6
+
+Trainer.train_batch_size = 16
+Trainer.val_batch_size = 1
+Trainer.train_epoch = 50000
+Trainer.val_epoch_interval = 10
+Trainer.seed = 42

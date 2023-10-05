@@ -1,0 +1,7 @@
+CoDiTInput.data_rel_dir = 'episodic_data/srrc_dual_frankas'
+CoDiTInput.task_list = ['task']
+CoDiTInput.num_train_demo = 'all'
+CoDiTInput.num_val_demo = 'all'
+CoDiTInput.chunk_size = 50
+CoDiTInput.sample_full_episode = False
+CoDiTInput.duplicate_num = 1
